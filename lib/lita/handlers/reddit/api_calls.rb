@@ -43,7 +43,7 @@ module Lita
               subreddit: r["data"]["subreddit"],
               title: r["data"]["title"],
               user: r["data"]["author"],
-              shortlink: format("http://redd.it/%s", r["data"]["id"])
+              shortlink: format("https://redd.it/%s", r["data"]["id"])
             }
           end
         rescue Exception => msg
